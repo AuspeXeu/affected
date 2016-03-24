@@ -1,0 +1,16 @@
+{
+  "author": "Christian Vaas",
+  "license": "MIT",
+  "name": "affected",
+  "version": "1.0.0",
+  "description": "This module checks whether your project is affected by the recent module \"liberation\" (Source: https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c)",
+  "bin": {
+    "affected": "./bin/affected.js"
+  },
+  "main": "./lib/index.js",
+  "preferGlobal": "true",
+  "dependencies": {
+    "parse-filepath": "^0.6.3",
+    "sync-exec": "^0.6.2"
+  }
+}
